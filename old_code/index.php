@@ -3,7 +3,7 @@ include_once("includes/head.php");
 include_once("includes/header.php");
 ?>
 
-<div class="main-content">
+<div class="page-wrapper">
 
     <h2>Websites I've worked on.</h2>
     <a href="lls.php"><?php include_once("includes/panels/lls-panel.php") ?></a>

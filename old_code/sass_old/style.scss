@@ -132,12 +132,12 @@ nav {
   }
 }
 
-.main-content {
+.page-wrapper {
   @include grid-span(3);
   margin: 0 auto;
 }
 
-.main-content > ul > li {
+.page-wrapper > ul > li {
   @include grid-span(1, 2);
   position: relative;
   clear: both;

@@ -3,7 +3,7 @@ include_once("includes/head.php");
 include_once("includes/header.php");
 ?>
 
-<div class="main-content">
+<div class="page-wrapper">
 
     <h2>Web English Teacher</h2>
 

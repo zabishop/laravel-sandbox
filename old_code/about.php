@@ -5,7 +5,7 @@ include_once("includes/head.php");
 include_once("includes/header.php");
 ?>
 
-<div class="main-content">
+<div class="page-wrapper">
 
     <h2>About Me</h2>
     <p>For the last 15 months or so I've been working for Freckle Interactive, LLC.</p>

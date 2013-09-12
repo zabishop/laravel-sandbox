@@ -2,28 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22e2c01d-8180-42b4-b745-4b5f1788f528" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/old_code/images/under-construction.png" afterPath="$PROJECT_DIR$/public/img/test-image1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/old_code/stylesheets/reset.css" afterPath="$PROJECT_DIR$/public/css/reset.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/old_code/stylesheets/styles.css" afterPath="$PROJECT_DIR$/public/css/old-styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2013_09_12_134318_create_users_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2013_09_12_134318_create_users_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/behaviors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2013_09_12_160801_create_projects_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2013_09_12_160801_create_projects_table.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_code/about.php" afterPath="$PROJECT_DIR$/old_code/about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_code/fit.php" afterPath="$PROJECT_DIR$/old_code/fit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_code/index.php" afterPath="$PROJECT_DIR$/old_code/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layout.blade.php" afterPath="$PROJECT_DIR$/app/views/layout.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_code/leaderboard.php" afterPath="$PROJECT_DIR$/old_code/leaderboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_code/lls.php" afterPath="$PROJECT_DIR$/old_code/lls.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main-styles.css" afterPath="$PROJECT_DIR$/public/css/main-styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/old-styles.css" afterPath="$PROJECT_DIR$/public/css/old-styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_code/paramount.php" afterPath="$PROJECT_DIR$/old_code/paramount.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects.blade.php" afterPath="$PROJECT_DIR$/app/views/projects.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_code/stylesheets_old/style.css" afterPath="$PROJECT_DIR$/old_code/stylesheets_old/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_code/sass_old/style.scss" afterPath="$PROJECT_DIR$/old_code/sass_old/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_code/wet.php" afterPath="$PROJECT_DIR$/old_code/wet.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="laravel-sb.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="22e2c01d-8180-42b4-b745-4b5f1788f528" time="1379001007277" ignored="false" />
-    <file path="/layout.blade.php" changelist="22e2c01d-8180-42b4-b745-4b5f1788f528" time="1379000682724" ignored="false" />
-    <file path="/main-styles.css" changelist="22e2c01d-8180-42b4-b745-4b5f1788f528" time="1379004258894" ignored="false" />
+    <file path="/Dummy.txt" changelist="22e2c01d-8180-42b4-b745-4b5f1788f528" time="1379006591222" ignored="false" />
+    <file path="/layout.blade.php" changelist="22e2c01d-8180-42b4-b745-4b5f1788f528" time="1379010171114" ignored="false" />
+    <file path="/main-styles.css" changelist="22e2c01d-8180-42b4-b745-4b5f1788f528" time="1379007860439" ignored="false" />
     <file path="/about.blade.php" changelist="22e2c01d-8180-42b4-b745-4b5f1788f528" time="1378999169885" ignored="false" />
     <file path="/projects.blade.php" changelist="22e2c01d-8180-42b4-b745-4b5f1788f528" time="1379004088636" ignored="false" />
     <file path="/styles.css" changelist="22e2c01d-8180-42b4-b745-4b5f1788f528" time="1378999968640" ignored="false" />
-    <file path="/DatabaseSeeder.php" changelist="22e2c01d-8180-42b4-b745-4b5f1788f528" time="1379003682191" ignored="false" />
+    <file path="/DatabaseSeeder.php" changelist="22e2c01d-8180-42b4-b745-4b5f1788f528" time="1379008339740" ignored="false" />
+    <file path="/functions.php" changelist="22e2c01d-8180-42b4-b745-4b5f1788f528" time="1379009780180" ignored="false" />
+    <file path="/2013_09_12_160801_create_projects_table.php" changelist="22e2c01d-8180-42b4-b745-4b5f1788f528" time="1379008535588" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +52,48 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.73864245">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.5">
+        <splitter split-orientation="horizontal" split-proportion="0.658466">
           <split-first>
             <leaf>
               <file leaf-file-name="layout.blade.php" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/views/layout.blade.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="38" column="39" selection-start="1114" selection-end="1114" vertical-scroll-proportion="-23.75">
+                    <state line="49" column="9" selection-start="1010" selection-end="1010" vertical-scroll-proportion="-30.625">
+                      <folding>
+                        <marker date="1379010173000" expanded="true" signature="100:179" placeholder="..." />
+                        <marker date="1379010173000" expanded="true" signature="107:179" placeholder="..." />
+                        <marker date="1379010173000" expanded="true" signature="332:381" placeholder="..." />
+                        <marker date="1379010173000" expanded="true" signature="338:381" placeholder="..." />
+                        <marker date="1379010173000" expanded="true" signature="347:381" placeholder="..." />
+                        <marker date="1379010173000" expanded="true" signature="360:381" placeholder="..." />
+                        <marker date="1379010173000" expanded="true" signature="425:446" placeholder="..." />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="behaviors.js" pinned="false" current="true" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/public/js/behaviors.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="projects.blade.php" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/public/php/functions.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="26" column="1" selection-start="635" selection-end="635" vertical-scroll-proportion="-16.25">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="projects.blade.php" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/views/projects.blade.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="14" column="20" selection-start="283" selection-end="304" vertical-scroll-proportion="0.17100978">
+                    <state line="15" column="44" selection-start="351" selection-end="351" vertical-scroll-proportion="-9.375">
                       <folding />
                     </state>
                   </provider>
@@ -68,7 +102,7 @@
               <file leaf-file-name="2013_09_12_160801_create_projects_table.php" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/database/migrations/2013_09_12_160801_create_projects_table.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="22" column="34" selection-start="548" selection-end="548" vertical-scroll-proportion="-13.75">
+                    <state line="20" column="30" selection-start="470" selection-end="470" vertical-scroll-proportion="-12.5">
                       <folding />
                     </state>
                   </provider>
@@ -78,10 +112,10 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="projects.blade.php" pinned="false" current="true" current-in-tab="true">
+              <file leaf-file-name="projects.blade.php" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/views/projects.blade.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="28" column="5" selection-start="765" selection-end="765" vertical-scroll-proportion="0.34201956">
+                    <state line="27" column="5" selection-start="764" selection-end="764" vertical-scroll-proportion="0.33333334">
                       <folding />
                     </state>
                   </provider>
@@ -90,7 +124,7 @@
               <file leaf-file-name="DatabaseSeeder.php" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="32" column="1" selection-start="793" selection-end="793" vertical-scroll-proportion="-20.0">
+                    <state line="29" column="43" selection-start="545" selection-end="545" vertical-scroll-proportion="-18.125">
                       <folding />
                     </state>
                   </provider>
@@ -114,7 +148,7 @@
           <file leaf-file-name="main-styles.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/css/main-styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="123" column="17" selection-start="1832" selection-end="1832" vertical-scroll-proportion="0.67651755">
+                <state line="171" column="12" selection-start="2420" selection-end="2420" vertical-scroll-proportion="0.8801917">
                   <folding />
                 </state>
               </provider>
@@ -153,12 +187,14 @@
         <option value="$PROJECT_DIR$/app/views/test.html" />
         <option value="$PROJECT_DIR$/app/views/about.blade.php" />
         <option value="$PROJECT_DIR$/public/css/styles.css" />
-        <option value="$PROJECT_DIR$/app/views/layout.blade.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2013_09_12_134318_create_users_table.php" />
+        <option value="$PROJECT_DIR$/public/css/main-styles.css" />
+        <option value="$PROJECT_DIR$/app/views/projects.blade.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2013_09_12_160801_create_projects_table.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/app/views/projects.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/main-styles.css" />
+        <option value="$PROJECT_DIR$/public/php/functions.php" />
+        <option value="$PROJECT_DIR$/app/views/layout.blade.php" />
+        <option value="$PROJECT_DIR$/public/js/behaviors.js" />
       </list>
     </option>
   </component>
@@ -241,7 +277,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -256,24 +292,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="old_code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel-sb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel-sb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="old_code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -479,37 +497,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2013_09_12_160801_create_projects_table.php">
+    <entry file="file://$PROJECT_DIR$/public/css/main-styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="34" selection-start="548" selection-end="548" vertical-scroll-proportion="-13.75">
+        <state line="171" column="12" selection-start="2420" selection-end="2420" vertical-scroll-proportion="0.8801917">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layout.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2013_09_12_160801_create_projects_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="39" selection-start="1114" selection-end="1114" vertical-scroll-proportion="-23.75">
+        <state line="20" column="30" selection-start="470" selection-end="470" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="1" selection-start="793" selection-end="793" vertical-scroll-proportion="-20.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main-styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="17" selection-start="1832" selection-end="1832" vertical-scroll-proportion="0.67651755">
+        <state line="29" column="43" selection-start="545" selection-end="545" vertical-scroll-proportion="-18.125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="5" selection-start="765" selection-end="765" vertical-scroll-proportion="0.34201956">
+        <state line="15" column="44" selection-start="351" selection-end="351" vertical-scroll-proportion="-9.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/php/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="1" selection-start="635" selection-end="635" vertical-scroll-proportion="-16.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="9" selection-start="1010" selection-end="1010" vertical-scroll-proportion="-30.625">
+          <folding>
+            <marker date="1379010173000" expanded="true" signature="100:179" placeholder="..." />
+            <marker date="1379010173000" expanded="true" signature="107:179" placeholder="..." />
+            <marker date="1379010173000" expanded="true" signature="332:381" placeholder="..." />
+            <marker date="1379010173000" expanded="true" signature="338:381" placeholder="..." />
+            <marker date="1379010173000" expanded="true" signature="347:381" placeholder="..." />
+            <marker date="1379010173000" expanded="true" signature="360:381" placeholder="..." />
+            <marker date="1379010173000" expanded="true" signature="425:446" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/behaviors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

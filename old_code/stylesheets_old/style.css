@@ -145,7 +145,7 @@ nav > ul > li {
 }
 
 /* line 135, ../sass_old/style.scss */
-.main-content {
+.page-wrapper {
   width: 100.0%;
   float: right;
   margin-left: 0;
@@ -155,7 +155,7 @@ nav > ul > li {
 }
 
 /* line 140, ../sass_old/style.scss */
-.main-content > ul > li {
+.page-wrapper > ul > li {
   width: 78.94737%;
   float: left;
   margin-right: -100%;
@@ -167,12 +167,12 @@ nav > ul > li {
   height: 400px;
 }
 /* line 146, ../sass_old/style.scss */
-.main-content > ul > li:last-of-type {
+.page-wrapper > ul > li:last-of-type {
   margin-bottom: 115px;
 }
 @media (min-width: 40em) {
   /* line 140, ../sass_old/style.scss */
-  .main-content > ul > li {
+  .page-wrapper > ul > li {
     width: 40%;
     float: left;
     margin-right: -100%;
@@ -182,7 +182,7 @@ nav > ul > li {
     display: inline-block;
   }
   /* line 153, ../sass_old/style.scss */
-  .main-content > ul > li:nth-child(even) {
+  .page-wrapper > ul > li:nth-child(even) {
     width: 40%;
     float: left;
     margin-right: -100%;
@@ -192,7 +192,7 @@ nav > ul > li {
 }
 @media (min-width: 40em) and (min-width: 60em) {
   /* line 140, ../sass_old/style.scss */
-  .main-content > ul > li {
+  .page-wrapper > ul > li {
     width: 26.08696%;
     float: left;
     margin-right: -100%;
@@ -200,7 +200,7 @@ nav > ul > li {
     clear: none;
   }
   /* line 158, ../sass_old/style.scss */
-  .main-content > ul > li:nth-child(2n+2) {
+  .page-wrapper > ul > li:nth-child(2n+2) {
     width: 26.08696%;
     float: left;
     margin-right: -100%;
@@ -208,7 +208,7 @@ nav > ul > li {
     clear: none;
   }
   /* line 161, ../sass_old/style.scss */
-  .main-content > ul > li:nth-child(3n+3) {
+  .page-wrapper > ul > li:nth-child(3n+3) {
     width: 26.08696%;
     float: left;
     margin-right: -100%;

@@ -14,7 +14,6 @@ Projects
         </div>
         <div class="project-panel-content">
             <img src="{{$project->picURL}}">
-
             <div class="project-description">
                 <div class="row">{{$project->type}}</div>
                 <div class="row">{{$project->tech}}</div>

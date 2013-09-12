@@ -17,8 +17,8 @@ class CreateProjectsTable extends Migration {
             $table->string('name')->unique();
             $table->string('type');
             $table->string('tech');
-            $table->string('start');
-            $table->string('end');
+            $table->bigInteger('start');
+            $table->bigInteger('end');
             $table->string('description');
             $table->string('picURL');
             $table->timestamps();
