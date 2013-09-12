@@ -123,6 +123,10 @@ nav ul > li a:hover {
 	position: relative;
 }
 
+.project-panel-wrapper.activeProject{
+	background: red;
+}
+
 .project-panel-content {
 	position: relative;
 	height: 100%;
@@ -159,20 +163,26 @@ nav ul > li a:hover {
 }
 
 .timeline-wrapper {
-	width: 730px;
-	height: 10px;
+	width: 732px;
 	margin: 0 auto;
 	display: block;
-	background: #eee;
 	overflow: auto;
 }
 
-.timeline-wrapper .day {
-	height: 100%;;
-	width: 2px;
-	margin: 0;
+.day {
+	height: 4px;
+	width: .273%;
 	display: inline-block;
-	background: #ccc;
+	background: #eee;
 	float: left;
 }
 
+.day.start {
+	background: #333;
+	height: 20px;
+}
+
+.day.end {
+	background: #333;
+	height: 20px;
+}

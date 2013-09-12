@@ -8,7 +8,7 @@ Projects
 @section('content')
 @foreach($projects as $project)
 <div class="project-panel-wrapper">
-    <div class="project-panel">
+    <div class="project-panel"  id="{{$project->id}}" data-project-start="{{$project->start}}" data-project-end="{{$project->end}}">
         <div class="project-title">
             {{ $project->name}}
         </div>

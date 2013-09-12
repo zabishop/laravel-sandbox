@@ -27,8 +27,8 @@ class ProjectTableSeeder extends Seeder
         Project::create(array('name' => 'Project X',
             'type' => 'Project Type',
             'tech' => 'Short String Describing Tech Used',
-            'start' => strtotime('2012-9-10'),
-            'end' => strtotime('2012-12-10'),
+            'start' => strtotime('2012-9-15'),
+            'end' => strtotime('2013-3-10'),
             'description' => 'Short Description of Project',
             'picURL' => 'img/test-image1.png'));
 

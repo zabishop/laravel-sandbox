@@ -1,6 +1,5 @@
 <?php
     include("php/functions.php");
-    //echo strtotime('2013-6-30');'
 ?>
 <!DOCTYPE html>
 <html>
@@ -9,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main-styles.css">
     <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/behaviors.js"></script>
 </head>
 
 
