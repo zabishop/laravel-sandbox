@@ -1,7 +1,11 @@
 @extends('layout')
 
+@section('page-title')
+    Projects
+@stop
+
 @section('headline')
-Projects Headline
+    Projects Headline
 @stop
 
 @section('content')

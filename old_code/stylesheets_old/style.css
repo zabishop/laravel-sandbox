@@ -1,0 +1,418 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+/* line 2, ../sass_old/partials/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2, ../sass_old/partials/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 2, ../sass_old/partials/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 2, ../sass_old/partials/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 2, ../sass_old/partials/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 2, ../sass_old/partials/_reset.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+/* line 2, ../sass_old/partials/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 49, ../sass_old/style.scss */
+html, body {
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+
+/* line 55, ../sass_old/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "gill sans", sans-serif;
+}
+
+/* line 59, ../sass_old/style.scss */
+p {
+  font-family: "gill sans", sans-serif;
+  font-weight: 100;
+}
+
+/* line 64, ../sass_old/style.scss */
+a {
+  color: black;
+  text-decoration: none;
+  font-family: "gill sans", sans-serif;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* line 70, ../sass_old/style.scss */
+a:visited {
+  color: #666666;
+}
+/* line 73, ../sass_old/style.scss */
+a:hover {
+  color: orange;
+}
+/* line 76, ../sass_old/style.scss */
+a:active {
+  color: orange;
+}
+/* line 79, ../sass_old/style.scss */
+a > img {
+  position: relative;
+  top: 2px;
+}
+@media (min-width: 40em) {
+  /* line 64, ../sass_old/style.scss */
+  a {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+/* line 90, ../sass_old/style.scss */
+header {
+  background: #cccccc;
+  width: 100%;
+  height: 120px;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: bottom;
+  padding-top: 40px;
+}
+/* line 98, ../sass_old/style.scss */
+header > h1 {
+  display: block;
+  font-size: 3em;
+  font-family: "gill sans", sans-serif;
+  font-weight: 100;
+}
+/* line 103, ../sass_old/style.scss */
+header > h1 > span {
+  color: orange;
+}
+/* line 107, ../sass_old/style.scss */
+header > h1.left {
+  margin-left: 20px;
+}
+/* line 110, ../sass_old/style.scss */
+header > h1.right {
+  font-size: 1.75em;
+  margin-left: 20px;
+  vertical-align: bottom;
+}
+
+/* line 117, ../sass_old/style.scss */
+nav {
+  width: 100%;
+  background: #eee;
+  padding: 10px 0px;
+  font-size: 1em;
+  -moz-box-shadow: 0px 0px 12px grey;
+  -webkit-box-shadow: 0px 0px 12px grey;
+  box-shadow: 0px 0px 12px grey;
+}
+/* line 125, ../sass_old/style.scss */
+nav > ul {
+  list-style: none;
+  text-align: center;
+}
+/* line 128, ../sass_old/style.scss */
+nav > ul > li {
+  display: inline-table;
+  vertical-align: middle;
+}
+
+/* line 135, ../sass_old/style.scss */
+.main-content {
+  width: 100.0%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  margin: 0 auto;
+}
+
+/* line 140, ../sass_old/style.scss */
+.main-content > ul > li {
+  width: 78.94737%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 10.52632%;
+  clear: none;
+  position: relative;
+  clear: both;
+  margin-top: 25px;
+  height: 400px;
+}
+/* line 146, ../sass_old/style.scss */
+.main-content > ul > li:last-of-type {
+  margin-bottom: 115px;
+}
+@media (min-width: 40em) {
+  /* line 140, ../sass_old/style.scss */
+  .main-content > ul > li {
+    width: 40%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 8.88889%;
+    clear: none;
+    clear: both;
+    display: inline-block;
+  }
+  /* line 153, ../sass_old/style.scss */
+  .main-content > ul > li:nth-child(even) {
+    width: 40%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 51.11111%;
+    clear: none;
+  }
+}
+@media (min-width: 40em) and (min-width: 60em) {
+  /* line 140, ../sass_old/style.scss */
+  .main-content > ul > li {
+    width: 26.08696%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 8.69565%;
+    clear: none;
+  }
+  /* line 158, ../sass_old/style.scss */
+  .main-content > ul > li:nth-child(2n+2) {
+    width: 26.08696%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 36.95652%;
+    clear: none;
+  }
+  /* line 161, ../sass_old/style.scss */
+  .main-content > ul > li:nth-child(3n+3) {
+    width: 26.08696%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 65.21739%;
+    clear: none;
+    clear: left;
+    position: relative;
+    top: -425px;
+  }
+}
+
+/* line 171, ../sass_old/style.scss */
+.panel {
+  background: #eeeeee;
+  border: 1px solid #666666;
+  height: 100%;
+  padding-bottom: 5px;
+  -moz-box-shadow: 0 0 12px #cccccc;
+  -webkit-box-shadow: 0 0 12px #cccccc;
+  box-shadow: 0 0 12px #cccccc;
+}
+/* line 179, ../sass_old/style.scss */
+.panel:hover {
+  -moz-box-shadow: 0px 0px 12px orange;
+  -webkit-box-shadow: 0px 0px 12px orange;
+  box-shadow: 0px 0px 12px orange;
+}
+/* line 184, ../sass_old/style.scss */
+.panel > img, .panel > ul {
+  display: block;
+  margin: 0 auto;
+  vertical-align: top;
+  text-align: center;
+  margin-top: 5px;
+}
+/* line 191, ../sass_old/style.scss */
+.panel > img {
+  border: 1px solid #666666;
+}
+/* line 194, ../sass_old/style.scss */
+.panel > h3 {
+  width: 100%;
+  padding: 10px 0;
+  color: #666666;
+  text-align: center;
+  background: #cccccc;
+  border-bottom: 1px solid #666666;
+}
+/* line 202, ../sass_old/style.scss */
+.panel > h4 {
+  color: #666666;
+  text-align: center;
+}
+
+/* line 208, ../sass_old/style.scss */
+#modalOverlay {
+  display: none;
+  position: absolute;
+  background: #eeeeee;
+  z-index: 10;
+  width: 90%;
+  margin: 5%;
+  border: 1px solid #666666;
+}
+/* line 216, ../sass_old/style.scss */
+#modalOverlay > a {
+  display: block;
+}
+/* line 219, ../sass_old/style.scss */
+#modalOverlay p {
+  margin: 10px;
+}
+/* line 222, ../sass_old/style.scss */
+#modalOverlay #closeModalButton {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  border: 1px solid #666666;
+  border-radius: 3px;
+  background: #cccccc;
+  font-family: "gill sans", sans-serif;
+  text-align: center;
+}
+
+/* line 237, ../sass_old/style.scss */
+.smallText {
+  font-size: .75em;
+}
+
+/* line 241, ../sass_old/style.scss */
+footer {
+  height: 10px;
+  width: 100%;
+  text-align: center;
+  display: inline-table;
+  vertical-align: middle;
+  position: fixed;
+  bottom: 0;
+}
+/* line 250, ../sass_old/style.scss */
+footer .footer-about-wrapper {
+  display: block;
+  width: 350px;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 255, ../sass_old/style.scss */
+footer .footer-about-wrapper #footer-about {
+  font-family: "gill sans", sans-serif;
+  display: inline-block;
+  background: #666666;
+  color: white;
+  line-height: 35px;
+  padding: 0;
+  margin: 0;
+  height: 35px;
+  width: 279px;
+  float: left;
+}
+/* line 267, ../sass_old/style.scss */
+footer .footer-about-wrapper .right-accent {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: bottom;
+  border-bottom: 35px solid #666666;
+  border-right: 35px solid transparent;
+  float: left;
+}
+/* line 278, ../sass_old/style.scss */
+footer .footer-about-wrapper .left-accent {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 0;
+  height: 0;
+  border-bottom: 35px solid #666666;
+  border-left: 35px solid transparent;
+  float: left;
+}
+/* line 290, ../sass_old/style.scss */
+footer #footer-expandable {
+  display: none;
+  height: 1000px;
+  background: #eeeeee;
+  border-top: 1px solid #666666;
+  -moz-box-shadow: 0px 0px 12px grey;
+  -webkit-box-shadow: 0px 0px 12px grey;
+  box-shadow: 0px 0px 12px grey;
+}
+/* line 299, ../sass_old/style.scss */
+footer #close-footer-button {
+  cursor: pointer;
+  float: right;
+  margin-right: 25px;
+  font-family: "gill sans", sans-serif;
+  text-align: center;
+  color: #666666;
+  border: 1px solid #666666;
+}
+/* line 311, ../sass_old/style.scss */
+footer label {
+  font-weight: bold;
+  display: block;
+}
+/* line 315, ../sass_old/style.scss */
+footer input[type=text] {
+  width: 250px;
+}
+/* line 318, ../sass_old/style.scss */
+footer textarea {
+  width: 400px;
+  height: 150px;
+}
+/* line 322, ../sass_old/style.scss */
+footer .warning {
+  color: #f00;
+  font-weight: bold;
+}
+/* line 326, ../sass_old/style.scss */
+footer label[for^=gender], footer label[for^=extras] {
+  display: inline-block;
+  font-weight: normal;
+}
+/* line 330, ../sass_old/style.scss */
+footer label[for=terms] {
+  display: inline-block;
+  margin-right: 10px;
+}
+/* line 334, ../sass_old/style.scss */
+footer #terms {
+  margin-left: 18px;
+}
+/* line 337, ../sass_old/style.scss */
+footer fieldset {
+  border: none;
+}
+/* line 340, ../sass_old/style.scss */
+footer legend {
+  font-weight: bold;
+}

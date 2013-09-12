@@ -1,0 +1,349 @@
+//////////////////////////////
+// Set legacy support
+//
+// If you need support for IE6 or IE7, you should install the Box Sizing polyfill.
+// In your project's folder from the command line, type the following:
+// compass install singularitygs/box-sizing
+//////////////////////////////
+
+//////////////////////////////
+// Imports
+//////////////////////////////
+
+@import "singularitygs";
+@import "partials/reset";
+@import "partials/rays";
+
+//////////////////////////////
+// Grid Variables
+//////////////////////////////
+
+$grids: 1 10 1;
+$grids: add-grid(1 6 6 1 at 40em);
+$grids: add-grid(1 4 4 4 1 at 60em);
+$gutters: 1/3;
+
+//////////////////////////////
+// Demension Variables
+//////////////////////////////
+
+$panel-height: 400px;
+$header-height: 120px;
+$panel-top-margin: 25px;
+$footer-height: 90px;
+
+//////////////////////////////
+// Color and Font Variables
+//////////////////////////////
+
+$global-font: "gill sans", sans-serif;
+$headline-font: $global-font;
+
+$grey-drop-shadow: 0px 0px 12px grey;
+$light-grey-drop-shadow: 0 0 12px #ccc;
+
+//////////////////////////////
+// Styles
+//////////////////////////////
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "gill sans", sans-serif;
+}
+
+p {
+  font-family: "gill sans", sans-serif;
+  font-weight: 100;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: "gill sans", sans-serif;
+  margin-left: 5px;
+  margin-right: 5px;
+  /*&:visited {
+    color: #666666;
+  }
+  &:hover {
+    color: orange;
+  }
+  &:active {
+    color: orange;
+  }
+  > img {
+    position: relative;
+    top: 2px;
+  }
+  @include breakpoint(40em) {
+    margin-left: 15px;
+    margin-right: 15px;
+  }*/
+
+}
+
+header {
+  background: #cccccc;
+  width: 100%;
+  height: $header-height;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: bottom;
+  padding-top: 40px;
+  >h1 {
+    display: block;
+    font-size: 3em;
+    font-family: $global-font;
+    font-weight: 100;
+    >span {
+      color: orange;
+    }
+  }
+  >h1.left {
+    margin-left: 20px;
+  }
+  >h1.right {
+    font-size: 1.75em;
+    margin-left: 20px;
+    vertical-align: bottom;
+  }
+}
+
+nav {
+  width: 100%;
+  background: #eee;
+  padding: 10px 0px;
+  font-size: 1em;
+  -moz-box-shadow: $grey-drop-shadow;
+  -webkit-box-shadow: $grey-drop-shadow;
+  box-shadow: $grey-drop-shadow;
+  > ul {
+    list-style: none;
+    text-align: center;
+    > li {
+      display: inline-table;
+      vertical-align: middle;
+    }
+  }
+}
+
+.main-content {
+  @include grid-span(3);
+  margin: 0 auto;
+}
+
+.main-content > ul > li {
+  @include grid-span(1, 2);
+  position: relative;
+  clear: both;
+  margin-top: $panel-top-margin;
+  height: $panel-height;
+  &:last-of-type {
+    margin-bottom: $footer-height + $panel-top-margin;
+  }
+  @include breakpoint(40em) {
+    @include grid-span(1, 2);
+    clear: both;
+    display: inline-block;
+    &:nth-child(even) {
+      @include grid-span(1, 3);
+    }
+    @include breakpoint(60em) {
+      @include grid-span(1, 2);
+      &:nth-child(2n+2) {
+        @include grid-span(1, 3);
+      }
+      &:nth-child(3n+3) {
+        @include grid-span(1, 4);
+        clear: left;
+        position: relative;
+        top: -($panel-height + $panel-top-margin);
+      }
+    }
+  }
+}
+
+.panel {
+  background: #eeeeee;
+  border: 1px solid #666666;
+  height: 100%;
+  padding-bottom: 5px;
+  -moz-box-shadow: $light-grey-drop-shadow;
+  -webkit-box-shadow: $light-grey-drop-shadow;
+  box-shadow: $light-grey-drop-shadow;
+  &:hover {
+    -moz-box-shadow: 0px 0px 12px orange;
+    -webkit-box-shadow: 0px 0px 12px orange;
+    box-shadow: 0px 0px 12px orange;
+  }
+  >img, >ul {
+    display: block;
+    margin: 0 auto;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 5px;
+  }
+  >img {
+    border: 1px solid #666666;
+  }
+  > h3 {
+    width: 100%;
+    padding: 10px 0;
+    color: #666666;
+    text-align: center;
+    background: #cccccc;
+    border-bottom: 1px solid #666666;
+  }
+  > h4 {
+    color: #666666;
+    text-align: center;
+  }
+}
+
+#modalOverlay {
+  display: none;
+  position: absolute;
+  background: #eeeeee;
+  z-index: 10;
+  width: 90%;
+  margin: 5%;
+  border: 1px solid #666666;
+  > a {
+    display: block;
+  }
+  p {
+    margin: 10px;
+  }
+  #closeModalButton {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    border: 1px solid #666666;
+    border-radius: 3px;
+    background: #cccccc;
+    font-family: $global-font;
+    text-align: center;
+  }
+}
+
+.smallText {
+  font-size: .75em;
+}
+
+footer {
+
+  height: 10px;
+  width: 100%;
+  text-align: center;
+  display: inline-table;
+  vertical-align: middle;
+  position: fixed;
+  bottom: 0;
+  .footer-about-wrapper {
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+    #footer-about {
+      font-family: $headline-font;
+      display: inline-block;
+      background: #666666;
+      color: white;
+      line-height: 35px;
+      padding: 0;
+      margin: 0;
+      height: 35px;
+      width: 279px;
+      float: left;
+    }
+    .right-accent {
+      padding: 0;
+      margin: 0;
+      display: inline-block;
+      width: 0;
+      height: 0;
+      vertical-align: bottom;
+      border-bottom: 35px solid #666666;
+      border-right: 35px solid transparent;
+      float: left;
+    }
+    .left-accent {
+      padding: 0;
+      margin: 0;
+      display: inline-block;
+      vertical-align: bottom;
+      width: 0;
+      height: 0;
+      border-bottom: 35px solid #666666;
+      border-left: 35px solid transparent;
+      float: left;
+    }
+  }
+  #footer-expandable {
+    display: none;
+    height: 1000px;
+    background: #eeeeee;
+    border-top: 1px solid #666666;
+    -moz-box-shadow: $grey-drop-shadow;
+    -webkit-box-shadow: $grey-drop-shadow;
+    box-shadow: $grey-drop-shadow;
+  }
+  #close-footer-button {
+    cursor: pointer;
+    float: right;
+    margin-right: 25px;
+    font-family: $global-font;
+    text-align: center;
+    color: #666666;
+    border: 1px solid #666666;
+  }
+
+
+
+  label {
+    font-weight: bold;
+    display: block;
+  }
+  input[type=text] {
+    width: 250px;
+  }
+  textarea {
+    width: 400px;
+    height: 150px;
+  }
+  .warning {
+    color: #f00;
+    font-weight: bold;
+  }
+  label[for^=gender], label[for^=extras] {
+    display: inline-block;
+    font-weight: normal;
+  }
+  label[for=terms] {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  #terms {
+    margin-left: 18px;
+  }
+  fieldset {
+    border: none;
+  }
+  legend {
+    font-weight: bold;
+  }
+
+
+}
+
+
+
+
