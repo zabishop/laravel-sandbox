@@ -1,3 +1,7 @@
+/*---------------------------------
+|	Global Styles
+---------------------------------*/
+
 *, *:before, *:after {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -12,6 +16,10 @@ html {
 	width: 100%;
 	background-color: #ccc;
 
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "gill sans", sans-serif;
 }
 
 body {
@@ -29,7 +37,6 @@ body {
 	vertical-align: bottom;
 	padding-top: 40px;
 	font-family: "gill sans", sans-serif;
-
 }
 
 .header-top, .header-bottom {
@@ -68,8 +75,6 @@ footer{
 	font-family: "gill sans", sans-serif;
 }
 
-
-
 nav > ul {
 	list-style: none;
 	text-align: center;
@@ -100,34 +105,72 @@ nav ul > li a:hover {
 	background: white;
 }
 
-.project-panel-wrapper {
+.page-content {
+	padding: 1em;
+}
+
+/*---------------------------------
+|	Project Page Styles
+---------------------------------*/
+
+.project-panels-list > li {
+	display: inline-block;
+}
+
+.project-wrapper {
 	background: #cccccc;
-	height: 225px;
 	padding-bottom: 5px;
-	width: 225px;
 	text-align: center;
 	vertical-align: top;
 	display: inline-block;
 	margin: 0 0 1em 1em;
 	border-radius: 0 45px 0 45px;
-	font-family: "gill sans", sans-serif;
+	position: relative;
+	transition: width 0.5s ease !important;
+	width: 325px;
+	overflow: auto;
 }
 
-.project-panel {
+.panel {
+	height: 325px;
+	width: 325px;
+	font-family: "gill sans", sans-serif;
+	display: inline-block;
+	float: left;
+}
+
+.image-panel,
+.description-panel {
 	background: #fff;
-	width: 205px;
-	height: 205px;
+	width: 305px;
+	height: 305px;
 	margin: 10px;
 	border-radius: 35px;
 	overflow: hidden;
 	position: relative;
+	z-index: 2;
 }
 
-.project-panel-wrapper.activeProject{
+.description-panel {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+
+.project-wrapper:hover {
+	transition: width 0.5s ease !important;
+	width: 645px;
+}
+
+
+.activeDescription{
 	background: red;
+	display: inline-block;
 }
 
-.project-panel-content {
+.project-image-wrapper {
 	position: relative;
 	height: 100%;
 }
@@ -138,29 +181,23 @@ nav ul > li a:hover {
 	line-height: 35px;
 }
 
-.project-description {
-	background: white;
-	position: absolute;
-	top: 0;
-	display: none;
-}
 
-.project-panel-content > img {
+.project-image-wrapper > img {
 	width: 90%;
 	display: block;
 	margin: 0 auto;
 }
 
-.project-panel:hover .project-description {
+.image-panel:hover .description-panel {
 	display: block;
 	width: 100%;
 	height: 100%;
 	padding: 1em;
 }
 
-.page-content {
-	padding: 1em;
-}
+/*---------------------------------
+|	Timeline Styles
+---------------------------------*/
 
 .timeline-wrapper {
 	width: 732px;

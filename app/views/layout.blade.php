@@ -1,14 +1,14 @@
-<?php
-    include("php/functions.php");
-?>
 <!DOCTYPE html>
 <html>
 <head>
     <title>zackBishop.com - @yield('page-title')</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main-styles.css">
-    <script src="js/jquery-1.9.1.js"></script>
-    <script src="js/behaviors.js"></script>
+    <link rel="stylesheet" href="css/royalslider.css">
+    <link rel="stylesheet" href="css/rs-default.css">
+
+    @yield('scripts')
+
 </head>
 
 
@@ -37,17 +37,31 @@
     <div class="page-content">
         <h1>@yield('headline')</h1>
         @yield('content')
-        <div class="timeline-wrapper">
-            <?= createTimeLine(); ?>
-        </div>
+        @yield('specialFeatures')
     </div>
 
 </div>
 
-
 <footer>
     This is the footer. Boom.
 </footer>
+
+<script>
+    jQuery(document).ready(function($) {
+        $(".royalSlider").royalSlider({
+            // options go here
+            // as an example, enable keyboard arrows nav
+            keyboardNavEnabled: true,
+            loop: true,
+            autoPlay: {
+                // autoplay options go here
+                enabled: true,
+                pauseOnHover: true,
+                stopAtAction: true
+            }
+        });
+    });
+</script>
 </body>
 
 </html>
