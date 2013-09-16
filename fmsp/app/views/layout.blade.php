@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>Test Page</h1>
+<h1>@yield('title')</h1>
 @yield('content')
 </body>
 </html>

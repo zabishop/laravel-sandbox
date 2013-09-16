@@ -1,5 +1,13 @@
-@extends('index')
+@extends('layout')
+
+@section('title')
+    Users
+@stop
 
 @section('content')
-This is a test page, users
+
+    @foreach($users as $user)
+        <p>{{ $user->firstname }}</p>
+    @endforeach
+
 @stop

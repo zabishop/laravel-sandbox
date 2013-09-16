@@ -11,7 +11,21 @@
 |
 */
 
-Route::get('/', function()
+/*Route::get('/', function()
 {
 	return View::make('users');
+});*/
+
+Route::get('/newUser', function()
+{
+    return View::make('newUser');
 });
+
+Route::get('users', function()
+{
+    $users = User::all();
+
+    return View::make('users')->with('users', $users);
+});
+
+Route::post('newUser', 'UserController@newUser');
