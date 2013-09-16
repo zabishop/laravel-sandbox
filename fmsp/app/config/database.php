@@ -46,22 +46,22 @@ return array(
 
 	'connections' => array(
 
-		'sqlite' => array(
+		/*'sqlite' => array(
 			'driver'   => 'sqlite',
 			'database' => __DIR__.'/../database/production.sqlite',
 			'prefix'   => '',
-		),
+		),*/
 
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'database',
-			'username'  => 'root',
-			'password'  => '',
+			'database'  => 'fmsp',
+			'username'  => 'fmsp_admin',
+			'password'  => '47mBRxbNFEMwwZjG',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
-		),
+		)/*,
 
 		'pgsql' => array(
 			'driver'   => 'pgsql',
@@ -81,7 +81,7 @@ return array(
 			'username' => 'root',
 			'password' => '',
 			'prefix'   => '',
-		),
+		),*/
 
 	),
 
