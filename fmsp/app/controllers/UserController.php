@@ -5,44 +5,36 @@ class UserController extends BaseController {
 
     public function validateNewUserData() {
 
-        //$firstname = Input::get('firstname');
-        //$lastname = Input::get('lastname');
-        $email = Input::get('email');
-        $username = Input::get('username');
-        $messages = null;
+        $rules = array(
+            //Required validations
+            'firstname' => 'required|min:5|alpha_num',
+            'lastname' => 'required|min:5|alpha_num',
 
-        $emailValidator = Validator::make(
-            array('email' => $email),
-            array('email' => 'unique:users')
+            //Unique validations
+            'username' => 'required|unique:users|alpha_num',
+            'email' => 'required|unique:users'
+
         );
 
-        $usernameValidator = Validator::make(
-            array('username' => $username),
-            array('username' => 'unique:users')
-        );
+        $validator = Validator::make(Input::all(), $rules);
 
-        if($emailValidator->fails()) {
-            $messages = $emailValidator->messages();
-            foreach($messages->all() as $message) {
-                echo $message;
-            }
+        if ($validator->fails())
+        {
+            return Redirect::to('newUser')->withErrors($validator)->withInput(Input::except('password', 'confirm_password'));
         }
 
-        if($usernameValidator->fails()) {
-            $messages = $usernameValidator->messages();
-            foreach($messages->all() as $message) {
-                echo $message;
-            }
+        if ($validator->passes())
+        {
+            $user = new User;
+
+            $user->firstname = Input::get('firstname');
+            $user->lastname = Input::get('lastname');
+            $user->email = Input::get('email');
+            $user->username = Input::get('username');
+            $user->save();
+
+            return Redirect::to('users');
         }
-
-   
-        /*$user->firstname = $firstname;
-        $user->lastname = $lastname;
-        $user->email = $email;
-        $user->username = $username;
-
-        $user->save();
-        return Redirect::to('users');*/
     }
 
 }
