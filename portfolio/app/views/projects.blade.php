@@ -46,5 +46,5 @@ Projects
 <div id="timelineDate"></div>
 <div class="timeline-wrapper">
     <?= createTimeLine(); ?>
-</div>d
+</div>
 @stop

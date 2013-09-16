@@ -200,23 +200,31 @@ nav ul > li a:hover {
 ---------------------------------*/
 
 .timeline-wrapper {
-	width: 732px;
+	width: 100%;
 	margin: 0 auto;
 	display: block;
 	overflow: auto;
+	height: 100px;
 }
 
 .day {
-	height: 4px;
+	height: 5px;
+	margin: 80px 0 15px 0;
 	width: .273%;
 	display: inline-block;
-	background: #eee;
+	background: #ddd;
 	float: left;
 }
 
 .day.start {
 	background: #333;
 	height: 20px;
+}
+
+.day.firstOfMonth {
+	height: 19px;
+	margin: 3px 0;
+	background: #333;
 }
 
 .day.end {
