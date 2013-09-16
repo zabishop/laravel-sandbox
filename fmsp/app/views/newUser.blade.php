@@ -3,7 +3,7 @@
 <h1>Create New User</h1>
 
 
-    {{ Form::open(array('action' => 'UserController@newUser')) }}
+    {{ Form::open(array('action' => 'UserController@validateNewUserData')) }}
     <label for="firstname">First Name:</label>
     <input type="text" id="firstname" name="firstname"><br>
     <label for="firstname">Last Name:</label>
